@@ -1,0 +1,10 @@
+@import './mixin.scss';
+
+.Main{
+    @include centering;
+    .phone{
+        img{
+            width:300px;
+        }
+    }
+}
