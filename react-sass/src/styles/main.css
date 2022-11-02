@@ -1,0 +1,41 @@
+.main-class {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-class .text h1 {
+  width: 300px;
+  font-wight: normal;
+  color: #2d314d;
+}
+
+.main-class .text p {
+  color: gray;
+  width: 400px;
+}
+
+.main-class .text button {
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 13px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+.main-class .phone {
+  background-image: url("../images/bg-intro-mobile.svg");
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  top: -70px;
+  left: 105px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.main-class .phone img {
+  position: relative;
+  top: 40%;
+}
