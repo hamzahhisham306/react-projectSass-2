@@ -1,0 +1,40 @@
+@import './mixin.scss';
+
+.article{
+    background-color:hsl(0, 0%, 98%);
+    padding-top:100px;
+    h1{
+        padding-bottom:30px;
+    }
+    
+    
+    .all-articles{
+     @include griding;
+     gap:70px;
+     .article-box{
+        background-color:#fff;
+        padding-left:15px;
+        padding-right:15px;
+        img{
+          width:100%
+        }
+        span{
+            font-size:10px;
+            color:gray;
+        }
+        h5{
+            width:200px;
+            line-height:1.5;
+            &:hover{
+                transition: 0.5s;
+
+                color:hsl(136, 65%, 51%);
+            }
+        }
+        p{
+            line-height:1.7;
+            color:gray;
+        }
+     }
+    }
+}

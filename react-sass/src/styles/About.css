@@ -1,0 +1,36 @@
+.about {
+  background-color: #fafafa;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.about .about-bank {
+  padding-bottom: 50px;
+}
+
+.about .about-bank h1 {
+  line-height: 2.8;
+  font-weight: normal;
+}
+
+.about .about-bank p {
+  line-height: 2;
+  width: 55%;
+  color: gray;
+}
+
+.about .aboutUS {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+.about .aboutUS .box h4 {
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about .aboutUS .box p {
+  line-height: 1.7;
+}
