@@ -1,0 +1,33 @@
+@import './mixin.scss';
+
+.about{
+    background-color:hsl(0, 0%, 98%);
+    padding:50px;
+    padding-bottom:100px;
+   .about-bank{
+    padding-bottom:50px;
+       h1{
+        line-height:2.8;
+        font-weight: normal;
+   }
+   p{
+    line-height:2;
+    width:55%;
+    color:gray;
+   }
+}
+ .aboutUS{
+    @include griding;
+    gap:50px;
+    .box{
+        h4{
+        font-weight: normal;
+        padding-top:20px;
+        padding-bottom:20px;
+        }
+        p{
+            line-height:1.7;
+        }
+    }
+ }
+}

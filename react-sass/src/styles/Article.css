@@ -1,0 +1,44 @@
+.article {
+  background-color: #fafafa;
+  padding-top: 100px;
+}
+
+.article h1 {
+  padding-bottom: 30px;
+}
+
+.article .all-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 70px;
+}
+
+.article .all-articles .article-box {
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article .all-articles .article-box img {
+  width: 100%;
+}
+
+.article .all-articles .article-box span {
+  font-size: 10px;
+  color: gray;
+}
+
+.article .all-articles .article-box h5 {
+  width: 200px;
+  line-height: 1.5;
+}
+
+.article .all-articles .article-box h5:hover {
+  transition: 0.5s;
+  color: #31d35c;
+}
+
+.article .all-articles .article-box p {
+  line-height: 1.7;
+  color: gray;
+}
