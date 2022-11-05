@@ -4,10 +4,12 @@ import api from '../images/icon-api.svg';
 import onboarding from '../images/icon-onboarding.svg';
 import budge from '../images/icon-budgeting.svg';
 import '../styles/About.scss';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
 function About() {
   return (
     <div className='about'>
+      <Container>
       <div className='about-bank'>
         <h1>Why choose Easybank?</h1>
         <p>We leverage Open Banking to turn you bank account into your financial hub Control your finanes like never before</p>
@@ -42,7 +44,7 @@ function About() {
           </p>
         </div>
       </div>
-      
+      </Container>
     </div>
   )
 }
