@@ -1,9 +1,12 @@
 import React from 'react'
 import phone from '../images/image-mockups.png';
 import '../styles/main.scss';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
 function Main() {
   return (
+    <Container>
+
     <div className='main-class'>
       <div className='text'>
         <h1>Next generation
@@ -16,6 +19,8 @@ function Main() {
         <img src={phone} alt='phone'/>
       </div>
     </div>
+    </Container>
+
   )
 }
 

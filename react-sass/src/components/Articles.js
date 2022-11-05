@@ -4,10 +4,12 @@ import resturant from '../images/image-restaurant.jpg';
 import sky from '../images/image-plane.jpg';
 import suprise from '../images/image-confetti.jpg';
 import '../styles/Article.scss';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
 function Articles() {
   return (
     <div className='article'>
+      <Container>
        <div className='title'>
           <h1>Lastest Articles</h1>
        </div>
@@ -37,6 +39,7 @@ function Articles() {
           <p>The world is getting smaller and we are becoming more mobile. So wyy should you be forced to only recive money in a single...</p>
          </div>
        </div>
+       </Container>
     </div>
   )
 }
